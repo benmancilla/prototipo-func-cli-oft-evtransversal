@@ -1,0 +1,33 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 15px;
+    padding: 3.5rem 2.2rem;
+    padding-top: 2rem;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h2 {
+    font-size: 1.5rem;
+    color: rgb(90, 90, 90);
+    margin-bottom: 2rem;
+}
+
+.login-container input{
+    font-size: 1.3rem;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px rgb(140, 140, 140);
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    padding: 0.6rem;
+}
+
+.login-container button{
+    font-size: 1.3rem;
+    background-color: #4E5CFF;
+    width: 100%;
+    margin-top: 1rem;
+}

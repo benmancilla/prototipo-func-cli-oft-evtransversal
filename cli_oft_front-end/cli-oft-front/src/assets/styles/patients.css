@@ -1,0 +1,77 @@
+.patients-utilities-container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 80rem;
+}
+
+#divedit1 {
+    display: flex;
+}
+
+.patients-container {
+    overflow-y: scroll;
+    background-color:  rgb(255, 255, 255);
+    min-width: 50rem;
+    max-width: 50rem;
+    min-height: 25rem;
+    max-height: 25rem;
+    padding-top: 1rem;
+}
+
+#no-patients{
+    color: rgb(66, 66, 66);
+}
+
+.patient-card {
+    color: rgb(66, 66, 66);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px rgb(122, 122, 122);;
+    padding: 0.5rem;
+    margin: 1rem 0.5rem;
+    min-height: 1rem;
+    max-height: 1rem;
+    align-items: center;
+}
+
+.search-bar{
+    margin-bottom: 1rem;
+    min-width: 49.5rem;
+    min-height: 2rem;
+}
+
+.back-btn{
+    color: white;
+}
+.back-btn:hover{
+    color: rgb(158, 158, 158);
+}
+
+.add-patient-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 25rem;
+    max-width: 25rem;
+}
+
+.add-patient-container input{
+    min-width: 15rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.pacientes-list-form {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    color: rgb(66, 66, 66);
+    overflow-y: scroll;
+    list-style-type: none;
+    min-height: 4rem;
+    max-height: 4rem;
+}
+
+.pacientes-list-form li:hover{
+    cursor: pointer;
+}

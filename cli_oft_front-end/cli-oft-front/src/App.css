@@ -1,0 +1,93 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  align-items: center;
+}
+
+.App {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App h2{
+  margin-bottom: 3rem;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.home{
+  display: flex;
+}
+
+.utility-card{
+  margin: 1rem;
+  background-color: white;
+  color:#4E5CFF;
+  border: solid 2px white;
+  border-radius: 15px;
+  padding: 2.5rem;
+  padding-bottom: 1rem;
+  transition: all 0.2s;
+}
+
+.card-icon{
+  user-select: none;
+  height: 7rem;
+  transition: all 0.2s;
+}
+
+.card-title {
+  color:#4E5CFF;
+  user-select: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+
+.utility-card:hover {
+  margin: 0.4rem;
+  cursor:pointer;
+  padding: 2.6rem;
+  padding-bottom: 1.1rem;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.299);
+  .card-icon {
+    height: 7.5rem;
+  }
+  .card-title {
+    font-size: 1.5rem;
+  }
+}
+
+.utility-card:active {
+  background-color: white;
+  color:#4E5CFF;
+  border: solid 2px white;
+  border-radius: 15px;
+  padding: 2.5rem;
+  padding-bottom: 1rem;
+  transition: all 0.2s;
+  box-shadow: none;
+
+  .card-icon{
+    height: 7rem;
+    transition: all 0.2s;
+  };
+
+  .card-title{
+    color:#4E5CFF;
+    font-size: 1.4rem;
+    font-weight: 600;
+    transition: all 0.2s;
+  };
+}
